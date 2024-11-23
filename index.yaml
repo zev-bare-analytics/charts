@@ -4,19 +4,20 @@ entries:
   - annotations:
       artifacthub.io/category: streaming-messaging
       artifacthub.io/changes: |
-        - kind: fixed
-          description: Fix null value in _helper template thingsboard.transports.image
+        - kind: added
+          description: Add integration executor
+          links:
+            - name: GitHub PR
+              url: https://github.com/mykolaichukAlexander/thingsboard-cluster-helm/pull/35
       artifacthub.io/logoPath: thingsboard_white.png
       artifacthub.io/maintainers: |
         - name: amykolaichuk
           email: amykolaichuk@thingsboard.io
-        - name: zevbutler
-          email: zev@bare-analytics.com
       artifacthub.io/prerelease: "true"
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 3.6.0
-    created: "2024-11-23T12:37:41.8701772+02:00"
+    created: "2024-11-23T12:47:31.038140729-05:00"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -72,4 +73,3 @@ entries:
     urls:
     - thingsboard-cluster-0.2.11.tgz
     version: 0.2.11
-generated: "2024-11-23T12:37:41.8701772+02:00"
