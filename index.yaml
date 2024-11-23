@@ -57,7 +57,7 @@ entries:
       repository: https://aws.github.io/eks-charts
       version: 1.6.1
     description: Helm chart for Thingsboard cluster.
-    digest: d940c1f503e1bc5c9f750c0b7fec185f41694784ed951e07093e3692eaab9b80
+    digest: b601bd16a687c3a53fbee8ebacbfa699feb96ac1678610c247c8053c261c2561
     home: https://thingsboard.io/
     icon: https://img.thingsboard.io/thingsboard_logo_blue.svg
     keywords:
